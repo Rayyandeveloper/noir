@@ -1,0 +1,204 @@
+*{
+    font-family:sans-serif;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+   background-color: rgb(27, 27, 27);
+}
+main > header{
+    background-color: black;
+    color: rgb(235, 238, 234);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0%;
+    /* border-bottom: 1px solid black; */
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    height: 12%;
+}
+#home{
+    font-size: xx-large;
+    /* margin-left: 30%; */
+}
+nav{
+    margin-right: 10%;
+    font-size: 95%;
+}
+nav > ul{
+    list-style-type: none;
+    display: flex;
+}
+nav > ul > li{
+    margin-right: 10%;
+}
+nav > ul > li> a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav > ul > li> a:hover{
+    color: red;
+}
+main> img{
+    width: 100%;
+    height: 120vh ;
+    position: relative;
+}
+main > .content{
+    height: auto;
+    width: 64%;
+    color: aliceblue;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    margin-left: 17%;
+}
+main > .content> h1{
+    font-size: 600%;   
+    margin-bottom: 0%;
+}
+main > .content> button{
+    padding: 2.5% 4%;
+    color: aliceblue;
+    background-color: rgb(211, 138, 4);
+    border: none;
+    margin-top: 5%;
+}
+
+main > .content> button:hover{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid wheat;
+    transition: 0.5s;
+}
+#services > h2{
+    font-size: xx-large;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    padding: 5% 0%;
+    margin: 0%;
+}
+#services> img{
+    width: 100%;
+    height: 120vh ;
+    position: relative;
+}
+#services > .boxes{
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    z-index: 1;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid wheat; */
+    height: auto;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4% 4%;
+}
+[class^="sec"]{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#services > .boxes > .box1{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid gray;
+    padding: 3%;
+    width: 55%;
+    border-radius: 20px;
+    margin-right: 2.6%;
+    height: 40vh;
+}
+#services > .boxes > .box1 > h2{
+    font-size: 250%;
+    margin-top: 6%;
+}
+.box1 >.sec > h3{
+  background: rgb(236, 75, 26);
+  color: #000;
+  font-size: x-large;
+  width: 5.5%;
+  padding: 1% 0.7%;
+  border-radius: 10%;
+}
+#services > .boxes > .box1:hover i{
+    color: red;
+}
+#services > .boxes > .box2{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid gray;
+    padding: 3%;
+    width: 25%;
+    border-radius: 20px;
+    height: 350px;
+    margin-bottom: 5%;
+}
+#services > .boxes > .box2 > h2{
+    font-size: 250%;
+    margin-top: 20%;
+}
+#services > .boxes > .box2:hover i{
+    color: red;
+}
+.box2 >.sec > h3{
+  background: rgb(236, 75, 26);
+  color: #000;
+  font-size: x-large;
+  width: 11%;
+  padding: 2% 1%;
+  border-radius: 10%;
+
+}
+#services > .boxes > .box3{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid gray;
+    padding: 3%;
+    width: 25%;
+    border-radius: 20px;
+    height: 350px;
+}
+#services > .boxes > .box3 > h2{
+    font-size: 250%;
+    margin-top: 20%;
+}
+#services > .boxes > .box3:hover i{
+    color: red;
+}
+.box3 >.sec > h3{
+  background: rgb(236, 75, 26);
+  color: #000;
+  font-size: x-large;
+  width: 11%;
+  padding: 2% 1%;
+  border-radius: 10%;
+}
+#services > .boxes > .box4{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid gray;
+    padding: 3%;
+    width: 55%;
+    border-radius: 20px;
+    margin-left: 2.6%;
+    height: 40vh;
+}
+#services > .boxes > .box4 > h2{
+    font-size: 250%;
+    margin-top: 6%;
+}
+.box4 >.sec > h3{
+  background: rgb(236, 75, 26);
+  color: #000;
+  font-size: x-large;
+  width: 5.5%;
+  padding: 1% 0.7%;
+  border-radius: 10%;
+}
+#services > .boxes > .box4:hover i{
+    color: red;
+}
